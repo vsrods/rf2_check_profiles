@@ -1,6 +1,10 @@
 {
   "Race Conditions":{
     "MULTI BlueFlags":1,
-	"MULTI Unsportsmanlike Sensitivity":1.49765
+	  "MULTI Unsportsmanlike Sensitivity":1.49765
+  },
+  "Game Options":{
+    "Number Track Replays":100,
+    "Number Race Results": 100
   }
 }

@@ -1,0 +1,10 @@
+{
+  "Multiplayer General Options":{
+  },
+  "Multiplayer Server Options":{
+    "Vote Min Voters":1,
+    "Vote Percentage Add AI":100,
+    "Vote Percentage Next Session":69,
+    "Vote Percentage Other":100
+  }
+}

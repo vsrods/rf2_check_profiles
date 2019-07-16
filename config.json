@@ -1,0 +1,25 @@
+{
+  "config":{
+    "rf2_install_dir": "C:\\perso\\rf2_dedi",
+    "models_dir": "models\\"
+  },
+  "models":{
+     "basics":{
+        "files":["basics-multiplayer.json","basics-player.json"]
+        },
+      "novote":{
+        "files":["vote_nextsession_only-multiplayer.json"]
+        },
+      "quali_private":{
+        "files":["quali_private-player.json"]
+        }
+    },
+  "check_allprofiles": ["vote_nextsession_only","basics"],
+  "check_profiles":[
+    {
+      "profile":"player",
+      "models":["basics","quali_private"]
+    }
+  ]
+  
+}

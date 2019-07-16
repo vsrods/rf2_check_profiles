@@ -1,0 +1,16 @@
+{
+  "Multiplayer General Options":{
+  },
+  "Multiplayer Server Options":{
+    "Allow Passenger Chat":false,
+    "Allow Spectator Chat":false,
+    "Client Fuel Visible":3,
+    "Enable Autodownloads":true,
+    "Forced Driving View":2,
+    "Loading Priority":2,
+    "Loading Sleep Time":0,
+    "Must Be Stopped":true,
+    "Race Client Wait":40,
+    "Race Rejoin":3
+  }
+}

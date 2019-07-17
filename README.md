@@ -18,6 +18,7 @@
 python check_profiles.py
 ```
 
+Updated parameters are given in the output of the command.
 
 # Requirements
 

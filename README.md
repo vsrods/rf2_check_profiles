@@ -36,15 +36,15 @@ Models examples are available in examples directory, you can copy those files in
 
 You can also define new models by creating models files in models directory:
 
-* Create model files, respecting the naming:
+1. Create model files, respecting the naming:
   - <model_name>-player.json : if the model contains player.json parameters to check
   - <model_name>-multiplayer.json : if the model contains multiplayer parameters to check
 
-* Edit models files content:
+2. Edit models files content:
 
 To edit the content, you can start from one of the examples.
 
-* Add the model in config.json in models part
+3. Add the model in config.json in models part
 
 ```
   "models":{

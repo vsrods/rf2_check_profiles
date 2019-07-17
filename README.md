@@ -2,7 +2,7 @@
 
 * Lost in all the parameters of Multiplayer.json and player.json ? 
 
-* Difficulties to administrate parameters for several rF2 userprofiles ?
+* Difficulties to administrate parameters for several rF2 user profiles ?
 
 rf2_check_profiles is an answer bringing you configuration models to assign to your profiles. You can customize the models and apply to the needed user profiles.
 

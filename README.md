@@ -22,35 +22,44 @@ config.json contains list of models and the list of user profiles to check vs mo
 * Configure rFactor install dir in config part
 
   "config":{
+  
     "rf2_install_dir": "C:\\perso\\rf2_dedi",
 
 # Define models
 
 Models examples are available in examples directory, you can copy those files in models directory.
 
-* define new models
-
 You can also define new models by creating models files in models directory:
 
-** Create model files, respecting the naming:
-- <model_name>-player.json : if the model contains player.json parameters to check
-- <model_name>-multiplayer.json : if the model contains multiplayer parameters to check
+* Create model files, respecting the naming:
+  - <model_name>-player.json : if the model contains player.json parameters to check
+  - <model_name>-multiplayer.json : if the model contains multiplayer parameters to check
+
+* Edit models files content:
+
 To edit the content, you can start from one of the examples.
 
-** Add the model in config.json in models part
+* Add the model in config.json in models part
 
   "models":{
+  
       "<model_name>":{
+      
         "files":["<model_name>-multiplayer.json"]
+        
         }
+        
 
 In the above example, the model have to check only parameters contained in multiplayer file.
 
 Another example from examples dir checking player.json and multiplayer.json file is:
 
   "models":{
+  
      "basics":{
+     
         "files":["basics-multiplayer.json","basics-player.json"]
+        
         }
 
 # Define profiles to check vs models
@@ -59,14 +68,23 @@ Another example from examples dir checking player.json and multiplayer.json file
 example, for player and champ1 profiles:
 
   "check_profiles":[
+  
     {
+    
       "profile":"player",
+      
       "models":["basics","quali_private"]
+      
     },
+    
         {
+        
       "profile":"player",
+      
       "models":["basics","quali_private"]
+      
     }
+    
   ]
 
 ..

@@ -10,12 +10,17 @@
 
 # Usage
 
+1. Shutdown the rFactor2 dedicated servers that need to be checked in order to value updates to be effective
+
+2. Launch check_profiles.py script in windows terminal (cmd.exe or powershell)
+
 ```
 python check_profiles.py
 ```
 
 
 # Requirements
+
 
 Python needs to be installed (https://www.python.org/downloads/)
 

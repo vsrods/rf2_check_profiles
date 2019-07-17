@@ -4,9 +4,9 @@
 
 * Difficulties to administrate parameters for several rF2 user profiles ?
 
-rf2_check_profiles is an answer bringing you configuration models to assign to your profiles. You can customize the models and apply to the needed user profiles.
+**rf2_check_profiles** is an answer bringing you configuration models to assign to your profiles. You can customize the models and apply to the needed user profiles.
 
-rf2_check_profiles will check and update (if needed) values of the parameters contained in each models assigned to each user profile (available in Userdata)
+**rf2_check_profiles** will check and update (if needed) values of the parameters contained in each models assigned to each user profile (available in Userdata)
 
 # Requirements
 
@@ -19,13 +19,16 @@ Python needs to be installed (https://www.python.org/downloads/)
 * Unzip in the folder you want
 
 # Configuration
-config.json contains list of models and the list of user profiles to check vs models.
+**config.json** contains list of models and the list of user profiles to check vs models.
 
 * Configure rFactor install dir in config part
 
+```
   "config":{
   
     "rf2_install_dir": "C:\\perso\\rf2_dedi",
+ ```   
+ 
 
 # Define models
 
@@ -43,6 +46,7 @@ To edit the content, you can start from one of the examples.
 
 * Add the model in config.json in models part
 
+```
   "models":{
   
       "<model_name>":{
@@ -50,12 +54,13 @@ To edit the content, you can start from one of the examples.
         "files":["<model_name>-multiplayer.json"]
         
         }
-        
+ ```       
 
 In the above example, the model have to check only parameters contained in multiplayer file.
 
 Another example from examples dir checking player.json and multiplayer.json file is:
 
+```
   "models":{
   
      "basics":{
@@ -63,12 +68,14 @@ Another example from examples dir checking player.json and multiplayer.json file
         "files":["basics-multiplayer.json","basics-player.json"]
         
         }
+```
 
 # Define profiles to check vs models
 
 * Add the user profiles to check in check_profiles part
 example, for player and champ1 profiles:
 
+```
   "check_profiles":[
   
     {
@@ -88,5 +95,5 @@ example, for player and champ1 profiles:
     }
     
   ]
-
+```
 ..

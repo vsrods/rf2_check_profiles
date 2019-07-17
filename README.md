@@ -8,6 +8,13 @@
 
 **rf2_check_profiles** will check and update (if needed) values of the parameters contained in each models assigned to each user profile (available in Userdata)
 
+# Usage
+
+```
+python check_profiles.py
+```
+
+
 # Requirements
 
 Python needs to be installed (https://www.python.org/downloads/)

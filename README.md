@@ -101,9 +101,9 @@ example, for player and champ1 profiles:
     
         {
         
-      "profile":"player",
+      "profile":"champ1",
       
-      "models":["basics","quali_private"]
+      "models":["basics","quali_public"]
       
     }
     

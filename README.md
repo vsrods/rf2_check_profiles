@@ -2,7 +2,7 @@
 
 * Lost in all the parameters of Multiplayer.json and player.json ? 
 
-* Difficulties to administrate parameters for several rF2 user profiles ?
+* Difficulties to administrate parameters of several rF2 dedicated servers ?
 
 **rf2_check_profiles** is an answer bringing you configuration models to assign to your profiles. You can customize the models and apply to the needed user profiles. It also brings referenced configurations aspect.
 
@@ -21,7 +21,6 @@ python check_profiles.py
 Updated parameters are given in the output of the command.
 
 # Requirements
-
 
 Python needs to be installed (https://www.python.org/downloads/)
 
@@ -45,11 +44,15 @@ Python needs to be installed (https://www.python.org/downloads/)
 
 # Define models
 
+  # From examples
+
 Models examples are available in examples directory, you can copy those files in models directory.
+
+  # Create new models
 
 You can also define new models by creating models files in models directory:
 
-1. Create model files, respecting the naming:
+1. Create model files in models directory, respecting the naming:
   - <model_name>-player.json : if the model contains player.json parameters to check
   - <model_name>-multiplayer.json : if the model contains multiplayer parameters to check
 
@@ -83,7 +86,7 @@ Another example from examples dir checking player.json and multiplayer.json file
         }
 ```
 
-# Define profiles to check vs models
+# Assign models to profiles to check
 
 * Add the user profiles to check in check_profiles part
 example, for player and champ1 profiles:

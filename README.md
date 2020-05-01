@@ -26,7 +26,7 @@ Python needs to be installed (https://www.python.org/downloads/)
 
 # Installation
 
-* You can git clone or download the archive of the last version: https://github.com/knackko/rf2_check_profiles/archive/master.zip
+* You can git clone or download the archive of the last version: https://github.com/vsrods/rf2_check_profiles/archive/master.zip
 
 * Unzip in the folder you want
 

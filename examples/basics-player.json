@@ -1,7 +1,9 @@
 {
   "Race Conditions":{
     "MULTI BlueFlags":1,
-	  "MULTI Unsportsmanlike Sensitivity":1.49765
+    "MULTI Reconnaissance":0,
+    "MULTI Unsportsmanlike Sensitivity":1.49765,
+    "MULTI Track Cuts Allowed": 5
   },
   "Game Options":{
     "Number Track Replays":100,

@@ -10,14 +10,14 @@ with open("config.json", "r") as jsonFile:
 
 # create logger
 logger = logging.getLogger()
-logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.INFO)
 
 # create formatter
 formatter = logging.Formatter('%(asctime)s - %(levelname)s %(message)s')
 
 # create console handler and set level to debug
 ch = logging.StreamHandler()
-ch.setLevel(logging.DEBUG)
+ch.setLevel(logging.INFO)
 ch.setFormatter(formatter)
 logger.addHandler(ch)
 

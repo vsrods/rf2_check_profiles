@@ -22,7 +22,7 @@ Updated parameters are given in the output of the command.
 
 # Requirements
 
-Python needs to be installed (https://www.python.org/downloads/)
+Python3 (https://www.python.org/downloads/)
 
 # Installation
 

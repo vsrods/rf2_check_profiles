@@ -1,0 +1,8 @@
+{
+  "Multiplayer General Options":{
+  },
+  "Multiplayer Server Options":{
+    "Pause At Start Of Session":false,
+    "Pause While Zero Players":true
+  }
+}

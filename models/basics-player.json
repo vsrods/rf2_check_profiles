@@ -1,0 +1,15 @@
+{
+  "Race Conditions":{
+    "MULTI BlueFlags":1,
+    "MULTI Reconnaissance":0,
+    "MULTI Unsportsmanlike Sensitivity":1.49765,
+    "MULTI Track Cuts Allowed": 5,
+    "RealRoadTimeScaleQualifying":2,
+	  "RealRoadTimeScalePractice":2,
+    "RealRoadTimeScaleRace":2
+  },
+  "Game Options":{
+    "Number Track Replays":100,
+    "Number Race Results": 100
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "Multiplayer General Options":{
+  },
+  "Multiplayer Server Options":{
+    "Admin Password":"ods123",
+    "Allow Passenger Chat":false,
+    "Allow Spectator Chat":true,
+    "Assign Parking":false,
+    "Client Fuel Visible":3,
+    "Enable Autodownloads":true,
+    "Forced Driving View":1,
+    "Loading Priority":1,
+    "Loading Sleep Time":0,
+    "Maximum AI":0,
+    "Minimum AI":0,
+    "Must Be Stopped":false,
+    "Race Client Wait":40,
+    "Race Rejoin":3,
+    "Closed Race Sessions":2
+  }
+}

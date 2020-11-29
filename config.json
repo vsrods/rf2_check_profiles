@@ -1,26 +1,25 @@
 {
   "config":{
-    "rf2_install_dir": "C:\\perso\\rf2_dedi",
+    "rf2_install_dir": "E:\\rFactor2",
     "models_dir": "models\\",
     "log_dir": "log\\"
   },
-  "models":{
-     "basics":{
-        "files":["basics-multiplayer.json","basics-player.json"]
-        },
-      "vote_nextsession_only":{
-        "files":["vote_nextsession_only-multiplayer.json"]
-        },
-      "quali_private":{
-        "files":["quali_private-player.json"]
-        }
-    },
-  "check_allprofiles": ["vote_nextsession_only","basics"],
   "check_profiles":[
     {
-      "profile":"player",
-      "models":["basics","quali_private","vote_nextsession_only"]
+      "profile":"profile1",
+      "models":["basics","vote_all","quali_public","pause_yes","pit_80"]
+    },
+    {
+      "profile":"profile2",
+      "models":["basics","vote_all","quali_private","pause_yes","pit_80"]
+    },
+    {
+      "profile":"profile3",
+      "models":["basics","vote_no","quali_public","pause_no","pit_80","practice_9h","qualify_10h"]
+    },
+    {
+      "profile":"profile4",
+      "models":["basics","vote_all","quali_public","pause_yes","pit_80","practice_afternoon"]
     }
   ]
-  
 }

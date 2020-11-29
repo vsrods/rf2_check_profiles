@@ -41,12 +41,26 @@ Python needs to be installed (https://www.python.org/downloads/)
     "rf2_install_dir": "C:\\perso\\rf2_dedi",
  ```   
  
+# Models
 
-# Define models
+  # Existing models
 
-  # From examples
+Existing models are available in model directory. You can edit them or create new models. Player and Multiplayer can be edited by this tool.
 
-Models examples are available in examples directory, you can copy those files in models directory.
+So each model consists of 2 files, suffixed by "-player.json" or "-multiplayer.json":
+  - <model_name>-player.json : if the model contains player.json parameters to check
+  - <model_name>-multiplayer.json : if the model contains multiplayer parameters to check
+
+  # Assign models to server profile
+  
+To assign a model of configuration to a server profile, add the model name in the list for the profile.
+
+```
+    {
+      "profile":"profile1",
+      "models":["basics","vote_all","quali_public","pause_yes","pit_80"]
+    },
+```
 
   # Create new models
 

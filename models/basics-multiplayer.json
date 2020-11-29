@@ -2,7 +2,7 @@
   "Multiplayer General Options":{
   },
   "Multiplayer Server Options":{
-    "Admin Password":"ods123",
+    "Admin Password":"",
     "Allow Passenger Chat":false,
     "Allow Spectator Chat":true,
     "Assign Parking":false,
